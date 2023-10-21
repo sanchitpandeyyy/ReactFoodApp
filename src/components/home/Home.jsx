@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../button/Button';
 import slider1 from '../../img/slider1.webp';
 import slider2 from '../../img/slider2.webp';
 import slider3 from '../../img/masu.jpg';
@@ -58,6 +59,8 @@ const Home = () => {
         </span>
     </button>
 </div>
+
+<Button/>
 
 
 <div className="flex justify-around">
