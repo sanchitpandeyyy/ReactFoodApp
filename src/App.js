@@ -1,9 +1,9 @@
 import './App.css';
-import About from './components/About';
-import Cart from './components/Cart';
-import Contact from './components/Contact';
+import About from './pages/About';
+import Cart from './pages/Cart';
+import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Home from './pages/Home';
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
