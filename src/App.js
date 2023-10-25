@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-
-import Home from './components/home/Home';
+import Home from './components/slider/Slider';
+import Card from './components/card/Card';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
      <Navbar/>
      
      <Home/>
+     <Card/>
     
    </div>
   );

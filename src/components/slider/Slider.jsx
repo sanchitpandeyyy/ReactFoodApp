@@ -3,9 +3,9 @@ import Button from '../button/Button';
 import slider1 from '../../img/slider1.webp';
 import slider2 from '../../img/slider2.webp';
 import slider3 from '../../img/masu.jpg';
-import img4 from '../../img/burger.jpg';
 
-const Home = () => {
+
+const Slider = () => {
   return (
     <div className='p-10'>
 
@@ -59,50 +59,9 @@ const Home = () => {
         </span>
     </button>
 </div>
-
 <Button/>
-
-
-<div className="flex justify-around">
-
-<div class="w-1/4 mt-10 p-4 flex justify-center items-center flex-col rounded-lg shadow bg-yellow-500">
-    <a href="#">
-       <img src={img4} alt='' className='rounded-3xl p-5 h-52 '/>
-    </a>
-    <p class="mb-3 font-normal text-white text-center">Latte Baa Ko Burger</p>
-    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Add To Cart
-      
-    </a>
 </div>
-
-<div class="w-1/4 mt-10 p-4 flex justify-center items-center flex-col rounded-lg shadow bg-yellow-500">
-    <a href="#">
-       <img src={img4} alt='' className='rounded-3xl p-5 h-52 '/>
-    </a>
-    <p class="mb-3 font-normal text-white text-center">Latte Baa Ko Burger</p>
-    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Add To Cart
-      
-    </a>
-</div>
-
-<div class="w-1/4 mt-10 p-4 flex justify-center items-center flex-col rounded-lg shadow bg-yellow-500">
-    <a href="#">
-       <img src={img4} alt='' className='rounded-3xl p-5 h-52 '/>
-    </a>
-    <p class="mb-3 font-normal text-white text-center">Latte Baa Ko Burger</p>
-    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Add To Cart
-      
-    </a>
-</div>
-
-
-</div>
-
-    </div>
   )
 }
 
-export default Home
+export default Slider
