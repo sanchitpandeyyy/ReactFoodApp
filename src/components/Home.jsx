@@ -1,8 +1,8 @@
 import React from 'react'
-import slider1 from '../../img/slider1.webp';
-import slider2 from '../../img/slider2.webp';
-import slider3 from '../../img/masu.jpg';
-import img4 from '../../img/burger.jpg';
+import slider1 from '../img/slider1.webp';
+import slider2 from '../img/slider2.webp';
+import slider3 from '../img/slider3.webp';
+import img4 from '../img/burger.jpg';
 
 const Home = () => {
   return (
