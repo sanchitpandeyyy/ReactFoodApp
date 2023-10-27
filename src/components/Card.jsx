@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({img,title,price,id,desc}) {
+function Card({img,title,price,id}) {
   return (
     <div className="flex flex-col justify-between w-60 border border-gray-200 rounded-lg shadow-2xl bg-yellow-500" id={id}>
     <a href="#">
