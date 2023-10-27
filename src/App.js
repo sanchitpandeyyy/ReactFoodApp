@@ -4,6 +4,7 @@ import Cart from './pages/Cart';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Footer from './components/Footer';
 
 import { Routes, Route } from 'react-router-dom'
 
@@ -20,6 +21,7 @@ function App() {
        
       </Routes>
      </div>
+     <Footer/>
    </div>
   );
 }
