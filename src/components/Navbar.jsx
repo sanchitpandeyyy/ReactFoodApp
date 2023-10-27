@@ -6,7 +6,7 @@ import { FaShoppingCart } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-24 bg-yellow-500">
-      <img src={Logo} alt="" className="w-20 h-20 ml-8" />
+      <img src={Logo} alt="" className="w-20 h-20 ml-8 rounded-full" />
       <div className="flex gap-8 items-center font-semibold text-lg">
         <Link to={"/"} className="hover:opacity-50 hover:transition-all active:opacity-50 ">Home</Link>
         <Link className="hover:opacity-50 hover:transition-all active:opacity-50 " to={"/about"}>About</Link>
