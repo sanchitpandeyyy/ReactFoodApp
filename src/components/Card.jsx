@@ -1,8 +1,11 @@
 import React from 'react'
+import {useState} from 'react';
 
 function Card({img,title,price,id}) {
+
+
   return (
-    <div className="flex flex-col justify-between w-60 border border-gray-200 rounded-lg shadow-2xl bg-yellow-500" id={id}>
+    <div  className="flex flex-col justify-between w-60 border border-gray-200 rounded-lg shadow-2xl bg-yellow-500" id={id}>
     <a href="#">
         <img className=" p-2 h-60 w-60 rounded-2xl" src={img} alt="product image" />
     </a>
