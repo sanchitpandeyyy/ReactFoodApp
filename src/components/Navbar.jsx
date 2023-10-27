@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from '../img/Logo.png';
 import { Link } from 'react-router-dom';
-import Login from '../pages/Login';
 
 const Navbar = () => {
   return (
