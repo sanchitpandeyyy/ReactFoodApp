@@ -2,7 +2,6 @@ import React from 'react'
 import Logo from '../img/Logo.png';
 import { Link } from 'react-router-dom';
 
-
 const Navbar = () => {
   return (
     <div className='flex justify-around items-center h-24 bg-yellow-500'>

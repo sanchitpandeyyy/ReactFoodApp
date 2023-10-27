@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-import slider1 from '../img/slider1.webp';
-import slider2 from '../img/slider2.webp';
-import slider3 from '../img/slider3.webp';
 import Card from '../components/Card';
 import FoodData from '../data/FoodData';
 import Slider from './Slider';
+
 
 const Home = () => {
     const [datas, setDatas] = useState(FoodData)
@@ -15,11 +13,11 @@ const Home = () => {
     return (
        
 <div className='p-10 dark:bg-gray-800'>
+   
+   <Slider/>
 
- <Slider/>
+        <form className=' mt-4'>   
 
-     
-    <form className=' mt-4'>   
      <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
       <div className="relative">
         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
