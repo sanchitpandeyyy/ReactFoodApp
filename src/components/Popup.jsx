@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Modal() {
+
+ 
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
@@ -36,7 +38,8 @@ export default function Modal() {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
-hello
+
+
                   </p>
                 </div>
                 {/*footer*/}
