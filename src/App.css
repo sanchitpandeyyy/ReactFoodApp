@@ -3,7 +3,10 @@
 
    *{
        font-family: 'Barlow', sans-serif;
+      
    }
+
+ 
 
    @media screen and (max-width: 768px) {
     #contactpage{
