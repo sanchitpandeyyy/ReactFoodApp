@@ -1,6 +1,7 @@
 import './App.css';
 import About from './pages/About';
 import Cart from './pages/Cart';
+import Card from './components/Card';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -17,7 +18,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/cart' element={<Cart />} />
+        <Route path="/" exact component={Card} />
+        <Route path='/cart' exact element={<Cart/>} />
        
       </Routes>
      </div>
